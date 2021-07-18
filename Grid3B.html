@@ -63,14 +63,15 @@
 
     <main class="flex-shrink-0">
        <div class="container h-100 minHeight">
-           <ul class="nav nav-pills mb-1">
-               <li class="navitem">
-                   <a href="Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+        <ul class="nav nav-pills mb-1">
+                <li class="navitem">
+                    <a href="Grid3.html" class="nav-link" aria-current="page">Grid 3</a>
                </li>
                <li class="navitem">
-                <a href="Grid3B.html" class="nav-link" aria-current="page">Grid 3B</a>
-            </li>
-        </ul>
+                    <a href="Grid3B.html" class="nav-link active" aria-current="page">Grid 3B</a>
+               </li>
+          </ul>
+
            <div class="row h-100">
                <!--Left Column-->
                 <div class="col-7">
@@ -81,21 +82,30 @@
                     </div>
                 </div>
                 <!--Right Column-->
-                <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+                <div class="col-5">
                     <!--Right top column-->
-                    <div class="bg-dark text-light h-50 p-2 overflow-auto">
-                        <p>Lorem ipsum dolor sit amet. Id atque quaerat aut galisum corrupti sed voluptatem doloremque. In quod accusantium sed dolorem iste ut commodi dicta eum galisum voluptas est explicabo assumenda. Ab galisum voluptatem aut dignissimos impedit est assumenda tempore et minus velit et dolores molestiae. Nam corporis quaerat eum   internos et aspernatur repudiandae qui rerum fuga sed cupiditate beatae! </p>
-
+                    <div class="bg-secondary text-light p-2">
+                        <form class="d-flex">
+                            <input class="form-control me-2"  type="search" placeholder="search" aria-label="search">
+                            <button class="btn btn-outline-light" type="submit">Submit</button>
+                        </form>
                     </div>
                     <!--Right bottom column-->
-                    <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-                        <p>Lorem ipsum dolor sit amet. Id atque quaerat aut galisum corrupti sed voluptatem doloremque. In quod accusantium sed dolorem iste ut commodi dicta eum galisum voluptas est explicabo assumenda. Ab galisum voluptatem aut dignissimos impedit est assumenda tempore et minus velit et dolores molestiae. Nam corporis quaerat eum  internos et aspernatur repudiandae qui rerum fuga sed cupiditate beatae! </p><p>Nam quod iste est numquam voluptatum hic enim dolorum eos iure blanditiis qui quia voluptas et ducimus possimus. Eum tenetur quia cum minima nihil et cupiditate dolor rem architecto perferendis est dolorem fuga aut omnis fugiat. Eum doloremque molestias ut laboriosam deserunt sed accusamus error. Et mollitia voluptatem sed dolore voluptas qui Quis quam At quaerat pariatur? </p>
+                    <div class="bg-dark text-light mt-2 p-2 ">
+                        <h4>More articles</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-link">
+                                <a class="nav-link" href="#">Article One</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link" href="#">Article Two</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link" href="#">Article Three</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    </div>
-                    <!--Button-->
-                    <div class="bg-dark text-light border-top p-2">
-                        <button>Read more</button>
-                    </div>
                  </div>
            </div>
        </div>
